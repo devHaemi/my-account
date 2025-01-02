@@ -1,4 +1,4 @@
-import { Colors, colors } from '@/styles/colorPalette'
+import { Colors, colors } from '@styles/colorPalette'
 import styled from '@emotion/styled'
 
 interface TagProps {

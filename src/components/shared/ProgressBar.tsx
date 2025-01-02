@@ -1,6 +1,6 @@
 import styled from '@emotion/styled'
 
-import { colors } from '@/styles/colorPalette'
+import { colors } from '@styles/colorPalette'
 
 const BaseProgressBar = styled.div<{ progress: number }>(({ progress }) => ({
   height: 10,

@@ -1,5 +1,5 @@
 import styled from '@emotion/styled'
-import { colors } from '@/styles/colorPalette'
+import { colors } from '@styles/colorPalette'
 
 import Button from '@/components/shared/Button'
 import Dimmed from '@/components/shared/Dimmed'

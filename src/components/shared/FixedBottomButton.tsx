@@ -1,5 +1,5 @@
 import Button from '@/components/shared/Button'
-import { colors } from '@/styles/colorPalette'
+import { colors } from '@styles/colorPalette'
 import { css, keyframes } from '@emotion/react'
 import styled from '@emotion/styled'
 import { createPortal } from 'react-dom'

@@ -1,4 +1,4 @@
-import { colors, Colors } from '@/styles/colorPalette'
+import { colors, Colors } from '@styles/colorPalette'
 import styled from '@emotion/styled'
 
 interface SpacingProps {

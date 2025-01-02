@@ -1,7 +1,7 @@
 import { MouseEvent } from 'react'
 import { css } from '@emotion/react'
 
-import { colors } from '@/styles/colorPalette'
+import { colors } from '@styles/colorPalette'
 import Flex from '@shared/Flex'
 import Text from '@shared/Text'
 

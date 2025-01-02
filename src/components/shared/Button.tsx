@@ -7,10 +7,10 @@ import {
   ButtonSize,
   buttonSizeMap,
   buttonWeakMap,
-} from '@/styles/button'
-import Flex from '@/components/shared/Flex'
-import Text from '@/components/shared/Text'
-import Spacing from '@/components/shared/Spacing'
+} from '@styles/button'
+import Flex from '@components/shared/Flex'
+import Text from '@components/shared/Text'
+import Spacing from '@components/shared/Spacing'
 
 interface ButtonProps {
   color?: ButtonColor

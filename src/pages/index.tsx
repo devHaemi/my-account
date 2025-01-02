@@ -1,13 +1,17 @@
 import styled from '@emotion/styled'
+import { css } from '@emotion/react'
 
 export default function Home() {
   return (
-    <div>
-      <Title>Home</Title>
-    </div>
+    <Container>
+      <div css={bold}>Home</div>
+    </Container>
   )
 }
 
-const Title = styled.h1`
+const Container = styled.div`
   background-color: pink;
+`
+const bold = css`
+  font-weight: bold;
 `

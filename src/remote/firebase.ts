@@ -14,3 +14,6 @@ const app =
         messagingSenderId: process.env.NEXT_PUBLIC_MESSAGING_SENDER_ID,
         appId: process.env.NEXT_PUBLIC_APP_ID,
       })
+
+export const auth = getAuth(app)
+export const store = getFirestore(app)

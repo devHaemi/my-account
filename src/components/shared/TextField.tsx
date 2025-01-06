@@ -4,8 +4,8 @@ import {
   InputHTMLAttributes,
   useState,
 } from 'react'
-import Input from '@/components/shared/Input'
-import Text from '@/components/shared/Text'
+import Input from '@components/shared/Input'
+import Text from '@components/shared/Text'
 
 interface TextFieldProps extends InputHTMLAttributes<HTMLInputElement> {
   label?: React.ReactNode

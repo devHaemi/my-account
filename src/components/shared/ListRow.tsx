@@ -1,8 +1,8 @@
 import { css, SerializedStyles } from '@emotion/react'
 import Flex from './Flex'
 import Text from './Text'
-import Skeleton from '@/components/shared/Skeleton'
-import Spacing from '@/components/shared/Spacing'
+import Skeleton from '@components/shared/Skeleton'
+import Spacing from '@components/shared/Spacing'
 
 interface ListRowProps {
   left?: React.ReactNode

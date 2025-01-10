@@ -6,6 +6,7 @@ import type { AppProps } from 'next/app'
 import globalStyles from '@styles/globalStyles'
 import Layout from '@shared/Layout'
 import AuthGuard from '@components/auth/AuthGuard'
+import Navbar from '@components/shared/Navbar'
 
 const client = new QueryClient({})
 
@@ -20,6 +21,7 @@ export default function App({
         <SessionProvider session={session}>
           <Hydrate state={dehydratedState}>
             <AuthGuard>
+              <Navbar />
               <Component {...pageProps} />
             </AuthGuard>
           </Hydrate>

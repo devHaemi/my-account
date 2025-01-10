@@ -104,8 +104,6 @@ export async function getServerSideProps(context: GetServerSidePropsContext) {
 
   const card = await getCard(cardId)
 
-  console.log(card)
-
   return {
     props: {
       initialCard: card,

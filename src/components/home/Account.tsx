@@ -1,8 +1,9 @@
+import Image from 'next/image'
+
 import Flex from '@shared/Flex'
 import Text from '@shared/Text'
 import Button from '@shared/Button'
 import Spacing from '@shared/Spacing'
-import Image from 'next/image'
 
 function Account() {
   const hasAccount = true

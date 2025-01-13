@@ -6,6 +6,7 @@ import Flex from '@components/shared/Flex'
 import TextField from '@components/shared/TextField'
 import { store } from '@remote/firebase'
 import { COLLECTIONS } from '@constants/collection'
+import Preview from '@components/event/Preview'
 
 function EventForm() {
   const [formValues, setFormValues] = useState({
@@ -76,7 +77,9 @@ function EventForm() {
             value={formValues.endDate}
           />
         </Flex>
-        <Flex style={{ flex: 2 }}>Preview</Flex>
+        <Flex style={{ flex: 2 }}>
+          <Preview data={formValues} mode="edit" />
+        </Flex>
       </Flex>
       <Button onClick={handleSubmit} disabled={isCompleted === false}>
         저장하기

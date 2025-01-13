@@ -8,7 +8,7 @@ import { getSearchCards } from '@remote/card'
 import Text from '@components/shared/Text'
 import ListRow from '@components/shared/ListRow'
 import Badge from '@components/shared/Badge'
-import useDebounce from '@components/shared/hocs/useDebounce'
+import useDebounce from '@hooks/useDebounce'
 
 function SearchPage() {
   const [keyword, setKeyword] = useState('')

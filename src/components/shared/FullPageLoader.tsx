@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Flex from '@components/shared/Flex'
 import Spacing from '@components/shared/Spacing'
 import Text from '@components/shared/Text'

@@ -3662,6 +3662,11 @@ react-dom@^18:
     loose-envify "^1.1.0"
     scheduler "^0.23.2"
 
+react-hook-form@^7.54.2:
+  version "7.54.2"
+  resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-7.54.2.tgz#8c26ed54c71628dff57ccd3c074b1dd377cfb211"
+  integrity sha512-eHpAUgUjWbZocoQYUHposymRb4ZP6d0uwUnooL2uOybA9/3tPUvoAKqEWK1WaSiTxxOfTpffNZP7QwlnM3/gEg==
+
 react-infinite-scroll-component@^6.1.0:
   version "6.1.0"
   resolved "https://registry.yarnpkg.com/react-infinite-scroll-component/-/react-infinite-scroll-component-6.1.0.tgz#7e511e7aa0f728ac3e51f64a38a6079ac522407f"

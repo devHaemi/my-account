@@ -1,4 +1,4 @@
-import { collection, doc, getDoc, setDoc } from 'firebase/firestore'
+import { collection, doc, setDoc, getDoc, updateDoc } from 'firebase/firestore'
 
 import { COLLECTIONS } from '@constants/collection'
 import { store } from '@remote/firebase'
@@ -22,7 +22,7 @@ export async function getTerms(userId: string) {
     doc(collection(store, COLLECTIONS.TERMS), userId),
   )
 
-  if (snapshot.exists() === null) {
+  if (snapshot.exists() === false) {
     return null
   }
 
@@ -44,7 +44,7 @@ export async function getAccount(userId: string) {
     doc(collection(store, COLLECTIONS.ACCOUNT), userId),
   )
 
-  if (snapshot.exists() === null) {
+  if (snapshot.exists() === false) {
     return null
   }
 

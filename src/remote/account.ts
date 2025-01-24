@@ -53,3 +53,9 @@ export async function getAccount(userId: string) {
     ...(snapshot.data() as Account),
   }
 }
+
+export function updateAccountBalance(userId: string, balance: number) {
+  const snapshot = doc(collection(store, COLLECTIONS.ACCOUNT), userId)
+
+  return updateDoc(snapshot, { balance })
+}

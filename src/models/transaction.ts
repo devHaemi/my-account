@@ -1,4 +1,5 @@
 export type TransactionType = 'deposit' | 'withdraw'
+export type TransactionFilterType = 'all' | 'deposit' | 'withdraw'
 
 export interface Transaction {
   userId: string
